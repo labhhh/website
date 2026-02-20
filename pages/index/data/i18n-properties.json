@@ -1,0 +1,16 @@
+{
+    "pt-BR": {
+        "greetings": "Me chamo Bruno Henrique!",
+        "role": "Desenvolvedor Back-end.",
+        "repos-title": "Repositórios",
+        "see-more": "Ver mais...",
+        "notes-lang-hint": "Apenas em"
+    },
+    "en-US": {
+        "greetings": "I'm Bruno Henrique!",
+        "role": "Back-end developer.",
+        "repos-title": "Repositories",
+        "see-more": "See more...",
+        "notes-lang-hint": "Only in"
+    }
+}

@@ -1,0 +1,35 @@
+@keyframes wave {
+    50% { transform:rotate(30deg); }
+}
+
+#control-buttons-container {
+    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+#greetings-container {
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+
+#greetings-container img {
+    height: calc(var(--font-size) * 2.3);
+    animation: wave 1.3s infinite;
+}
+
+#links-container span {
+    white-space: nowrap;
+}
+
+#notes-container h2, sup {
+    display: flex;
+    gap: 7px;
+}
+
+.section-label::after {
+    content: ":";
+}
